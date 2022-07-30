@@ -9,4 +9,6 @@
 
 把相应的库放在window的c盘根目录和linux的/opt目录下
 
+opencv4.5.2 下载地址https://github.com/opencv/opencv/tree/4.5.2
 
+seetaface2  下载地址 https://gitee.com/mirrors/SeetaFace2/blob/master/README.md
