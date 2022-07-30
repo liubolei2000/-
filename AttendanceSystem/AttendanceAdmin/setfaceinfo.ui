@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setFaceInfo</class>
+ <widget class="QWidget" name="setFaceInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>723</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,4">
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(23, 44, 123,0.8);
+border-radius:20px;
+font: 9pt &quot;微软雅黑&quot;;
+color: rgb(254, 254, 254);
+padding:10px;
+</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QPushButton" name="label">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>10</y>
+          <width>100</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/image/head.png);
+border-radius:50px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(23, 170, 123,0.8);
+border-radius:20px;
+font: 9pt &quot;微软雅黑&quot;;
+color: rgb(254, 254, 254);
+padding:5px;
+</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="CameraWin" name="widget" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(100, 170, 255,0.8);
+border-radius:20px;
+font: 9pt &quot;微软雅黑&quot;;
+color: rgb(254, 254, 254);
+padding:5px;
+
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,1,1,1">
+      <item>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding-left:20px;</string>
+        </property>
+        <property name="placeholderText">
+         <string>输入姓名</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding-left:20px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>明星</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>c++工程师</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>java工程师</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ui工程师</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>web工程师</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>会计</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>运维</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding-left:20px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>研发部</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>其他</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>人力资源部</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>财务部</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>设计部</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding-left:20px;</string>
+        </property>
+        <property name="placeholderText">
+         <string>输入工号</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="butPressedEvent" name="send_post_but">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>录入</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>butPressedEvent</class>
+   <extends>QPushButton</extends>
+   <header location="global">butpressedevent.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CameraWin</class>
+   <extends>QWidget</extends>
+   <header location="global">camerawin.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

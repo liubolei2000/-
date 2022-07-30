@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/cmd.png</file>
+        <file>image/cmd_p.png</file>
+        <file>image/date.png</file>
+        <file>image/date_p.png</file>
+        <file>image/qd.png</file>
+        <file>image/qd_p.png</file>
+        <file>image/szt.png</file>
+        <file>image/szt_p.png</file>
+        <file>image/lr.png</file>
+        <file>image/lr_p.png</file>
+        <file>image/face.png</file>
+        <file>image/face_p.png</file>
+        <file>image/no.png</file>
+        <file>image/ok.png</file>
+        <file>image/head.png</file>
+    </qresource>
+</RCC>
