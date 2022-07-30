@@ -1,7 +1,7 @@
 # -
 这是一个用开源的opencv和seetaface做的人脸识别考勤机，可以运行在嵌入式平台
 
-需在你的linux系统安装编译opencv，我已经编译好了两个ubuntu的opencv库
+需在你的linux系统安装编译opencv，我已经编译好了ubuntu 16.04的opencv库
 
 安装apache2在linux平台
 
