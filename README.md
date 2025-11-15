@@ -1,14 +1,25 @@
-# QT Project
-这是一个用开源的opencv和seetaface做的人脸识别考勤机，可以运行在嵌入式平台
+# Embedded Face Recognition Attendance System
 
-需在你的linux系统安装编译opencv和seetaface库
+A face-recognition attendance machine built using **OpenCV** and **SeetaFace**, deployable on embedded Linux platforms.
 
-安装apache2在linux平台
+## Features
 
-安装qt在windows平台
+- Real-time face detection and recognition  
+- Attendance logging / check-in tracking  
+- Runs on embedded devices (Linux-based)  
+- Uses open-source libraries: OpenCV & SeetaFace  
 
-把相应的库放在window的c盘根目录和linux的/opt目录下
+## Requirements
 
-opencv4.5.2 下载地址https://github.com/opencv/opencv/tree/4.5.2
+- Linux (embedded or desktop)  
+- Apache2 (for web interface if needed)  
+- Qt (for GUI on Windows)  
+- OpenCV 4.5.2  
+- SeetaFace2  
 
-seetaface2  下载地址 https://gitee.com/mirrors/SeetaFace2/blob/master/README.md
+## Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/liubolei2000/your-repo-name.git
+   cd your-repo-name
